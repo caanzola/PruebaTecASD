@@ -56,6 +56,10 @@ Cmd + U
 ```
 
 ## Solución de Problemas
+### Error: `Sandbox: rsync.samba (13105) deny(1) file-write-create`
+Verificar que la llave ENABLE_USER_SCRIPT_SANDBOXING tenga el valor 'No' en los Build Settings
+
+
 ### Error: `Failed to terminate com.asd.PruebaTecASD`
 Soluciones posibles:
 - Cerrar la app manualmente en el simulador.
